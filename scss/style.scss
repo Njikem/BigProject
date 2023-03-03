@@ -1,0 +1,138 @@
+
+
+
+img{
+    max-width: 100%;
+}
+
+* {
+padding: 0;
+margin:0;
+font-family: sans sarif
+}
+
+
+
+#main_header{
+    display:grid;
+    min-height:10vh;
+}
+
+.menu{
+    display:grid;
+    margin-top: 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    
+
+    #mean{
+        height:30px;
+        width:30px;
+    }
+
+    #search{
+        height:30px;
+        width:30px;
+
+    }
+}
+
+#main_section{
+    display:grid;
+    min-height: 80vh;
+    
+
+    img{
+        width:250px;
+        height:250;  
+        margin-bottom: 30px;
+        
+        &:hover{
+            border-radius: 50%;
+        }
+    }
+
+    p{
+        display: none;
+    }
+}
+
+
+.dress{
+    display:grid;    
+    margin-top: 100px;
+    margin-bottom: 50px;
+    place-items: center;
+}
+
+.tops{
+    display:grid;
+    place-items: center;
+    margin-bottom: 50px; 
+    
+}
+
+.piece{
+    display:grid;
+    place-items: center;
+    margin-bottom: 50px;
+
+}
+
+.pant{
+    display:grid;
+    place-items: center;
+    margin-bottom: 50px;
+}
+
+.bag{
+    display:grid;
+    place-items: center;
+    margin-bottom: 50px;
+}
+
+.shoe{
+    display:grid;
+    place-items: center;
+    margin-bottom: 50px;
+}
+
+#page_footer{
+    display:grid;
+    min-height: 10vh;
+    background-color: beige;
+
+    #about{
+        margin-top: 100px;
+        margin-bottom: 60px;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    #info{
+        margin-bottom: 60px;
+    }
+
+    #contact{
+       margin-bottom: 60px;
+    }
+
+    #Media{
+    margin-bottom: 40px;
+        img{
+            width:20px;
+            height:20px;
+        }
+    }
+    
+    #soacial{
+        margin-bottom: 100px;
+        margin-top: 70px;
+
+    }
+}
+
+
+

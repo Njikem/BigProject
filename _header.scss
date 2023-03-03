@@ -1,0 +1,8 @@
+header{
+    display:grid;
+   place-items: center;
+
+   .flag{
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+}
