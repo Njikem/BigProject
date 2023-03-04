@@ -85,6 +85,7 @@ img {
   display: grid;
   min-height: 10vh;
   background-color: beige;
+  display: none;
 }
 #page_footer #about {
   margin-top: 100px;
@@ -109,6 +110,46 @@ img {
 #page_footer #soacial {
   margin-bottom: 100px;
   margin-top: 70px;
+}
+
+#about_me {
+  display: grid;
+  place-items: center;
+}
+#about_me img {
+  margin-bottom: 40px;
+  border: bold;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+#wicky {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 40px;
+}
+#wicky img {
+  height: 30px;
+}
+
+#page {
+  display: grid;
+  margin-bottom: 30px;
+}
+
+#main_container {
+  display: grid;
+  place-items: center;
+  margin-bottom: 50px;
+}
+#main_container img {
+  height: 30px;
+}
+
+#section_dress {
+  display: grid;
+  place-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

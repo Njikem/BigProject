@@ -101,6 +101,7 @@ font-family: sans sarif
     display:grid;
     min-height: 10vh;
     background-color: beige;
+    display:none;
 
     #about{
         margin-top: 100px;
@@ -135,4 +136,53 @@ font-family: sans sarif
 }
 
 
+#about_me{
+    display:grid;
+    place-items: center;
+    
+    img{
+        margin-bottom: 40px;
+        border:bold;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+}
+
+#wicky{
+    display:grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 40px;
+    img{
+        height:30px;
+
+    }
+}
+
+#page{
+    display:grid;
+    margin-bottom: 30px;
+  
+}
+
+    
+
+
+
+
+  #main_container{
+    display:grid;
+    place-items: center;
+    margin-bottom: 50px;
+    
+    img{
+        height:30px;
+    }
+
+  }
+
+  #section_dress{
+    display:grid;
+    place-items: center;
+  }
 
