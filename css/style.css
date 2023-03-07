@@ -12,6 +12,13 @@ img {
   display: grid;
   min-height: 10vh;
 }
+#main_header #main_container {
+  display: grid;
+}
+#main_header #main_container img {
+  height: 40px;
+  wdth: 30px;
+}
 
 .menu {
   display: grid;
@@ -28,6 +35,19 @@ img {
   width: 30px;
 }
 
+#contact_header {
+  display: grid;
+}
+#contact_header .dash {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#contact_header .dash #more {
+  display: grid;
+  height: 30px;
+}
+
 #main_section {
   display: grid;
   min-height: 80vh;
@@ -38,9 +58,214 @@ img {
   margin-bottom: 30px;
 }
 #main_section img:hover {
-  border-radius: 50%;
+  font-size: large;
 }
 #main_section p {
+  display: none;
+}
+
+@media only screen and (min-width: 720px) {
+  #main_section {
+    background-color: lightblue;
+    margin-top: 50px;
+  }
+  #main_section img {
+    margin: 40px;
+    gap: 20px;
+    height: 190px;
+    object-fit: cover;
+    margin-left: 30px;
+    margin-right: 35px;
+    border: bold;
+    border-radius: 10px;
+  }
+  #main_section img:hover {
+    transform: scale(1.9);
+  }
+  #main_section p {
+    display: all;
+  }
+  #main_section .dress {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  #main_section .dress #space {
+    height: 190px;
+    width: 190px;
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+  #main_section .dress #pad {
+    margin-left: 40px;
+    height: 190px;
+    width: 190px;
+    margin-right: 50px;
+  }
+  #main_section .tops {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  #main_section .tops #top {
+    height: 190px;
+    width: 190px;
+  }
+  #main_section .tops #web {
+    height: 190px;
+    width: 190px;
+  }
+  #main_section .piece {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  #main_section .piece #black {
+    height: 190px;
+    width: 190px;
+  }
+  #main_section .piece #two {
+    height: 190px;
+    width: 190px;
+  }
+  #main_section .pant {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  #main_section .pant #mini {
+    height: 190px;
+    width: 190px;
+  }
+  #main_section .pant #knit {
+    height: 190px;
+    width: 190px;
+  }
+  #main_section .bag {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  #main_section .bag img {
+    height: 190px;
+    width: 190px;
+  }
+  #main_section .shoe {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  #main_section .shoe img {
+    height: 190px;
+    width: 190px;
+  }
+  #page_footer {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+  }
+  #page_footer #Media {
+    display: grid;
+  }
+  #page_footer #Media .auto {
+    margin-left: 120px;
+    place-items: center;
+    grid-auto-flow: column;
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+  #page_footer #ref {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 60px;
+  }
+  #page_footer .tel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #page_footer #info {
+    display: grid;
+    margin-right: 30px;
+    font-size: medium;
+  }
+  #page_footer #info #refund {
+    display: grid;
+    margin-bottom: 20px;
+  }
+  #page_footer #info #nest {
+    color: dimgrey;
+  }
+  #page_footer #info #nest p {
+    margin-top: 10px;
+  }
+  #page_footer #contact {
+    display: grid;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  #page_footer #contact #com {
+    color: dimgrey;
+  }
+  #page_footer #contact #com p {
+    margin-top: 10px;
+  }
+  #page_footer .blank {
+    display: none;
+  }
+  #page_footer #all {
+    display: none;
+  }
+  #twit {
+    display: grid;
+    margin-left: 250px;
+  }
+}
+@media only screen and (min-width: 1020px) {
+  #main_section {
+    display: grid;
+    margin-top: 100px;
+    margin-top: 80px;
+  }
+  #main_section img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 80px;
+  }
+  #main_section #pace {
+    display: grid;
+    height: 300px;
+    margin-bottom: 210px;
+  }
+  #main_section #clothes {
+    margin-bottom: 210px;
+  }
+  #main_section #tall {
+    margin-bottom: 210px;
+  }
+  #main_section #well {
+    margin-bottom: 210px;
+  }
+  #main_section #twos {
+    margin-bottom: 210px;
+  }
+  #main_section #plant {
+    margin-bottom: 210px;
+  }
+  #main_section #big {
+    margin-bottom: 210px;
+  }
+  #main_section #shoes {
+    margin-bottom: 210px;
+  }
+  #main_section #pad {
+    height: 190px;
+  }
+  #main_section .bag {
+    display: grid;
+    height: 300px;
+  }
+}
+#page-footer {
+  display: grid;
+  margin-top: 120px;
+}
+
+.blank {
   display: none;
 }
 
@@ -85,7 +310,6 @@ img {
   display: grid;
   min-height: 10vh;
   background-color: beige;
-  display: none;
 }
 #page_footer #about {
   margin-top: 100px;
@@ -106,6 +330,26 @@ img {
 #page_footer #Media img {
   width: 20px;
   height: 20px;
+}
+#page_footer #Media #all {
+  display: none;
+}
+#page_footer #Media #insta {
+  place-items: center;
+}
+#page_footer #twit {
+  display: grid;
+  place-self: center;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 160px;
+}
+#page_footer #go {
+  display: grid;
+  margin-left: 160px;
 }
 #page_footer #soacial {
   margin-bottom: 100px;
@@ -136,20 +380,6 @@ img {
 #page {
   display: grid;
   margin-bottom: 30px;
-}
-
-#main_container {
-  display: grid;
-  place-items: center;
-  margin-bottom: 50px;
-}
-#main_container img {
-  height: 30px;
-}
-
-#section_dress {
-  display: grid;
-  place-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

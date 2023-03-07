@@ -16,7 +16,19 @@ font-family: sans sarif
 #main_header{
     display:grid;
     min-height:10vh;
+
+    #main_container{
+        display:grid;
+         img{
+            height:40px;
+            wdth:30px;
+         }
+    }
+    
+
 }
+
+
 
 .menu{
     display:grid;
@@ -37,6 +49,28 @@ font-family: sans sarif
     }
 }
 
+
+#contact_header{
+    display:grid;
+
+    .dash{
+      display:grid;
+      place-items: center;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      #more{
+        display:grid;
+        height:30px;
+      }
+        
+        
+    }
+}
+
+
+
+
+
 #main_section{
     display:grid;
     min-height: 80vh;
@@ -48,13 +82,287 @@ font-family: sans sarif
         margin-bottom: 30px;
         
         &:hover{
-            border-radius: 50%;
+            font-size: large;
         }
     }
 
     p{
         display: none;
     }
+}
+
+
+@media only screen and (min-width:720px){
+     
+
+    #main_section{
+        background-color:lightblue;
+        margin-top: 50px;
+        
+         img{
+            margin: 40px;
+            gap:20px;
+            height:190px;
+            object-fit: cover;
+            margin-left: 30px;
+            margin-right: 35px;
+            border: bold;
+            border-radius: 10px;
+
+
+            &:hover{
+                transform:scale(1.9);
+            }
+         }
+
+        p{
+            display:all;
+        }
+
+        .dress{
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap:20px;
+
+
+            #space{
+                height:190px;
+                width:190px;
+                margin-left: 40px;
+                margin-right: 50px;
+                
+            }
+           #pad{
+            margin-left: 40px;
+            height:190px;
+            width: 190px;
+            margin-right: 50px;
+           }
+        }
+
+        .tops{
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap:20px;
+
+            #top{
+                height: 190px;
+                width: 190px;
+            }
+            
+            #web{
+                height:190px;
+                width:190px;
+
+            }
+        }
+     .piece{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap:20px;
+
+        #black{
+            height:190px;
+            width:190px;
+        }
+
+        #two{
+            height:190px;
+            width:190px;
+        }
+     }
+
+     .pant{
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       gap:20px;
+
+       #mini{
+        height:190px;
+        width:190px;
+       }
+
+       #knit{
+        height:190px;
+        width:190px;
+       }
+     }
+
+     .bag{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap:20px;
+
+        img{
+            height:190px;
+            width:190px;
+        }
+     }
+
+     .shoe{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap:20px;
+
+        img{
+            height:190px;
+            width:190px;
+        }
+     }
+
+    }
+
+    #page_footer{
+        display:grid;
+        place-items: center;
+        margin-top: 50px;
+
+        #Media{
+            display:grid;
+
+            .auto{
+            margin-left: 120px;
+            place-items: center;
+            grid-auto-flow: column;
+            margin-bottom: 40px;
+            margin-top: 50px;
+            }
+
+        }
+
+        #ref{
+            display:grid;
+            grid-auto-flow: column;
+            margin-top: 60px;
+        }
+
+        .tel{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        #info{
+            display:grid;
+            margin-right: 30px;
+            font-size: medium;
+
+            #refund{
+                display:grid;
+                margin-bottom: 20px;
+            }
+            #nest{
+                color:dimgrey;
+                
+                p{
+                    margin-top: 10px;
+                }
+            }
+            
+        }
+
+        #contact{
+            display:grid;
+            margin-bottom: 20px;
+            margin-left: 30px;
+            
+            #com{
+                color:dimgrey;
+
+                p{
+                    margin-top: 10px;
+                }
+            }
+
+        }
+
+        .blank{
+            display:none;
+        }
+
+        #all{
+            display:none;
+        }
+
+        }
+
+        #twit{
+            display:grid;
+            margin-left: 250px;
+        }
+    }
+
+
+
+@media only screen and (min-width: 1020px){
+      
+
+    #main_section{
+        display:grid;
+        margin-top: 100px;
+        margin-top: 80px;
+
+        img{
+            width:200px;
+            height:300px;
+            object-fit: cover;
+            margin-left: 80px;
+            
+        }
+
+        #pace{
+          display:grid;
+         height:300px;
+         margin-bottom: 210px;
+         
+        }
+         
+        #clothes{
+            margin-bottom: 210px;
+        }
+
+        #tall{
+            margin-bottom: 210px;
+        }
+
+        #well{
+            margin-bottom: 210px;
+        }
+
+        #twos{
+            margin-bottom: 210px;
+        }
+
+        #plant{
+            margin-bottom: 210px;
+        }
+
+        #big{
+            margin-bottom: 210px;
+        }
+
+        #shoes{
+            margin-bottom: 210px;
+        }
+
+        #pad{
+            height:190px;
+        }
+
+        .bag{
+            display:grid;
+            height:300px;
+            
+        }
+    }
+  
+}
+
+
+    #page-footer{
+        display:grid;
+        margin-top: 120px;
+    }
+    
+
+
+
+
+.blank{
+    display:none;
 }
 
 
@@ -101,7 +409,7 @@ font-family: sans sarif
     display:grid;
     min-height: 10vh;
     background-color: beige;
-    display:none;
+
 
     #about{
         margin-top: 100px;
@@ -126,6 +434,31 @@ font-family: sans sarif
             width:20px;
             height:20px;
         }
+
+        #all{
+            display:none
+        }
+
+        #insta{
+            place-items: center;
+        }
+    }
+
+    #twit{
+        display:grid;
+        place-self: center;
+        height:50px;
+        width:50px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 160px;
+        
+    }
+
+    #go{
+        display:grid;
+        margin-left: 160px;
     }
     
     #soacial{
@@ -166,23 +499,3 @@ font-family: sans sarif
 }
 
     
-
-
-
-
-  #main_container{
-    display:grid;
-    place-items: center;
-    margin-bottom: 50px;
-    
-    img{
-        height:30px;
-    }
-
-  }
-
-  #section_dress{
-    display:grid;
-    place-items: center;
-  }
-
