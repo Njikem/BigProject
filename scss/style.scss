@@ -15,487 +15,186 @@ font-family: sans sarif
 
 #main_header{
     display:grid;
-    min-height:10vh;
-
-    #main_container{
-        display:grid;
-         img{
-            height:40px;
-            wdth:30px;
-         }
-    }
-    
-
-}
-
-
-
-.menu{
-    display:grid;
-    margin-top: 80px;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 60px;
     place-items: center;
+    margin-top: 60px;
     
-
-    #mean{
+    
+     img{
         height:30px;
         width:30px;
-    }
+     }
 
-    #search{
-        height:30px;
-        width:30px;
-
-    }
-}
-
-
-#contact_header{
-    display:grid;
-
-    .dash{
-      display:grid;
-      place-items: center;
-      grid-template-columns: 1fr 1fr 1fr;
-
-      #more{
-        display:grid;
-        height:30px;
-      }
-        
-        
+    .menu{
+       display:grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       place-items: center;
+       
+   
     }
 }
-
-
-
-
 
 #main_section{
     display:grid;
-    min-height: 80vh;
-    
-
-    img{
-        width:250px;
-        height:250;  
-        margin-bottom: 30px;
-        
-        &:hover{
-            font-size: large;
-        }
-    }
 
     p{
-        display: none;
+        display:none;
+    }
+
+    img{
+        height:250px;
+        width:250px;
+        margin:10px;
+        object-fit: cover;
+        border: bold;
+        border-radius: 20px;
+        margin-left: 50px;
     }
 }
-
 
 @media only screen and (min-width:720px){
-     
 
-    #main_section{
-        background-color:lightblue;
-        margin-top: 50px;
-        
-         img{
-            margin: 40px;
-            gap:20px;
-            height:190px;
-            object-fit: cover;
-            margin-left: 30px;
-            margin-right: 35px;
-            border: bold;
-            border-radius: 10px;
-
-
-            &:hover{
-                transform:scale(1.9);
-            }
-         }
-
-        p{
-            display:all;
-        }
-
-        .dress{
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            gap:20px;
-
-
-            #space{
-                height:190px;
-                width:190px;
-                margin-left: 40px;
-                margin-right: 50px;
-                
-            }
-           #pad{
-            margin-left: 40px;
-            height:190px;
-            width: 190px;
-            margin-right: 50px;
-           }
-        }
-
-        .tops{
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            gap:20px;
-
-            #top{
-                height: 190px;
-                width: 190px;
-            }
-            
-            #web{
-                height:190px;
-                width:190px;
-
-            }
-        }
-     .piece{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        gap:20px;
-
-        #black{
-            height:190px;
-            width:190px;
-        }
-
-        #two{
-            height:190px;
-            width:190px;
-        }
-     }
-
-     .pant{
-       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-       gap:20px;
-
-       #mini{
-        height:190px;
-        width:190px;
-       }
-
-       #knit{
-        height:190px;
-        width:190px;
-       }
-     }
-
-     .bag{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        gap:20px;
-
-        img{
-            height:190px;
-            width:190px;
-        }
-     }
-
-     .shoe{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        gap:20px;
-
-        img{
-            height:190px;
-            width:190px;
-        }
-     }
-
-    }
-
-    #page_footer{
-        display:grid;
-        place-items: center;
-        margin-top: 50px;
-
-        #Media{
+        .menu{
             display:grid;
-
-            .auto{
-            margin-left: 120px;
             place-items: center;
-            grid-auto-flow: column;
-            margin-bottom: 40px;
-            margin-top: 50px;
-            }
-
-        }
-
-        #ref{
-            display:grid;
-            grid-auto-flow: column;
-            margin-top: 60px;
-        }
-
-        .tel{
-            display:grid;
-            grid-template-columns: 1fr 1fr;
-        }
-
-        #info{
-            display:grid;
-            margin-right: 30px;
-            font-size: medium;
-
-            #refund{
-                display:grid;
-                margin-bottom: 20px;
-            }
-            #nest{
-                color:dimgrey;
-                
-                p{
-                    margin-top: 10px;
-                }
-            }
+            margin-bottom: 50px;
             
-        }
-
-        #contact{
-            display:grid;
-            margin-bottom: 20px;
-            margin-left: 30px;
-            
-            #com{
-                color:dimgrey;
-
-                p{
-                    margin-top: 10px;
-                }
+            #mau{
+                margin-right: 50px;
+            }
+            #search{
+                margin-right: 100px;
             }
 
+            #me{
+                margin-right: 50px;
+            }
         }
 
-        .blank{
-            display:none;
-        }
+#main_section{
+    display:grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   background-color: lightblue;
+   
+      img{
+       height: 300px;
+       margin-bottom: 40px;
 
-        #all{
-            display:none;
-        }
+       &:hover{
+        transform:scale(1.3)
+       }
+      }
 
-        }
 
-        #twit{
-            display:grid;
-            margin-left: 250px;
-        }
+    p{
+        display:block;
+        margin-left: 50px;
+        font-size: medium;
+    }
+}
+    
+#page_footer{
+    display:grid;
+
+    .auto{
+        margin-left: 390px;
+        
     }
 
-
-
-@media only screen and (min-width: 1020px){
-      
-
-    #main_section{
-        display:grid;
-        margin-top: 100px;
-        margin-top: 80px;
-
-        img{
-            width:200px;
-            height:300px;
-            object-fit: cover;
-            margin-left: 80px;
-            
-        }
-
-        #pace{
-          display:grid;
-         height:300px;
-         margin-bottom: 210px;
-         
-        }
-         
-        #clothes{
-            margin-bottom: 210px;
-        }
-
-        #tall{
-            margin-bottom: 210px;
-        }
-
-        #well{
-            margin-bottom: 210px;
-        }
-
-        #twos{
-            margin-bottom: 210px;
-        }
-
-        #plant{
-            margin-bottom: 210px;
-        }
-
-        #big{
-            margin-bottom: 210px;
-        }
-
-        #shoes{
-            margin-bottom: 210px;
-        }
-
-        #pad{
-            height:190px;
-        }
-
-        .bag{
-            display:grid;
-            height:300px;
-            
-        }
+    #ref{
+        margin-left: 100px;
+        gap:30px;
     }
-  
 }
 
 
-    #page-footer{
-        display:grid;
-        margin-top: 120px;
-    }
-    
-
-
+}
 
 
 .blank{
-    display:none;
-}
-
-
-.dress{
-    display:grid;    
-    margin-top: 100px;
-    margin-bottom: 50px;
-    place-items: center;
-}
-
-.tops{
     display:grid;
-    place-items: center;
-    margin-bottom: 50px; 
+
+    p{
+        display:none;
+    }
     
-}
-
-.piece{
-    display:grid;
-    place-items: center;
-    margin-bottom: 50px;
+    #us{
+        display:none;
+    }
 
 }
 
-.pant{
-    display:grid;
-    place-items: center;
-    margin-bottom: 50px;
-}
-
-.bag{
-    display:grid;
-    place-items: center;
-    margin-bottom: 50px;
-}
-
-.shoe{
-    display:grid;
-    place-items: center;
-    margin-bottom: 50px;
-}
 
 #page_footer{
     display:grid;
-    min-height: 10vh;
     background-color: beige;
-
-
-    #about{
-        margin-top: 100px;
-        margin-bottom: 60px;
-        text-align: justify;
-        margin-left: 10px;
-        margin-right: 10px;
-
-    }
-
-    #info{
-        margin-bottom: 60px;
-    }
-
-    #contact{
-       margin-bottom: 60px;
-    }
-
-    #Media{
-    margin-bottom: 40px;
-        img{
-            width:20px;
-            height:20px;
-        }
-
-        #all{
-            display:none
-        }
-
-        #insta{
-            place-items: center;
-        }
-    }
-
-    #twit{
-        display:grid;
-        place-self: center;
-        height:50px;
-        width:50px;
-        margin-bottom: 100px;
-        margin-top: 100px;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-left: 160px;
-        
-    }
-
-    #go{
-        display:grid;
-        margin-left: 160px;
-    }
-    
-    #soacial{
-        margin-bottom: 100px;
-        margin-top: 70px;
-
-    }
+    margin-top: 40px;
 }
 
-
-#about_me{
+.tel{
     display:grid;
-    place-items: center;
-    
-    img{
-        margin-bottom: 40px;
-        border:bold;
-        border-radius: 30px;
-        margin-top: 10px;
-    }
 }
 
-#wicky{
+  #info{
+   display:none;
+  }
+
+  #nest{
+  display:none;
+  }
+ 
+  #contact{
+    display:none;
+  }
+
+  #all{
+    
+    display:none;
+  }
+ 
+  .auto{
     display:grid;
-    place-items: center;
+    margin-top: 50px;
+    height:50px;
+    width:50px;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 40px;
-    img{
-        height:30px;
+    place-items: center;
+    margin-left: 130px;
+    margin-bottom: 50px;
+  }
 
-    }
-}
-
-#page{
+  #ref{
     display:grid;
-    margin-bottom: 30px;
-  
-}
+    margin-bottom: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30px;
+  }
 
-    
+@media only screen and (min-width: 1020px){
+
+    main_section{
+        display:grid;
+        place-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+       background-color: lightblue;
+       
+    }    
+
+
+   #page_footer{
+    display:grid;
+
+    .auto{
+        margin-left: 580px;
+    }
+
+    #ref{
+        margin-left: 100px;
+    }
+   }
+
+   
+   
+
+ }

@@ -1,0 +1,134 @@
+img{
+    max-width: 100%;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-sarif;
+}
+
+#about_header{
+    display:grid;
+    margin-bottom: 60px;
+
+ .head{
+    display:grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    
+    img{
+        height:40px;
+        width:40px;
+    }
+ }
+      
+}
+
+@media only screen and (min-width:720px){
+
+.shop{
+    display:grid;
+    place-self: center;
+
+    img{
+    padding: 15px 15px;
+       
+    }
+}
+
+#page_footer{
+display:grid;
+
+#about{
+    display:grid;
+    margin-left: 30px;
+    
+}
+
+}
+
+#page_footer{
+    display:grid;
+    margin-top: 60px;
+
+    #twit{
+        display:grid;
+        place-items: center;
+    }
+
+    #about{
+        margin-bottom: 50px;
+    }
+}
+
+}
+
+
+
+
+
+#about_me{
+    display:grid;
+
+    .shop{
+        display:grid;
+        img{
+        object-fit: cover;
+        border:bold;
+        border-radius: 20px;
+        padding:0px 6px;
+        }
+    }
+}
+
+
+#page_footer{
+ display:grid;
+ margin-bottom: 40px;
+
+    #about{
+        display:grid;
+        margin-top: 40px;
+        padding:0px 6px;
+
+        #page{
+           margin-bottom: 10px;
+        }
+    }
+
+    #twit{
+        display:grid;
+        margin-top: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+        img{
+            height:20px;
+            width:20px;
+          margin-bottom: 20px;
+          margin-left: 30px;
+          
+        }
+    }
+
+    #go{
+        display:grid;
+        place-self: center;
+        margin-top: 30px;
+    }
+}
+
+
+@media only screen and (min-width:1020px){
+
+#page_footer{
+  display:grid;
+
+  #about{
+    place-items: center;
+    margin-left: 90px;
+  }
+}
+
+}

@@ -1,0 +1,106 @@
+img {
+  max-width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-sarif;
+}
+
+#about_header {
+  display: grid;
+  margin-bottom: 60px;
+}
+#about_header .head {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+}
+#about_header .head img {
+  height: 40px;
+  width: 40px;
+}
+
+@media only screen and (min-width: 720px) {
+  .shop {
+    display: grid;
+    place-self: center;
+  }
+  .shop img {
+    padding: 15px 15px;
+  }
+  #page_footer {
+    display: grid;
+  }
+  #page_footer #about {
+    display: grid;
+    margin-left: 30px;
+  }
+  #page_footer {
+    display: grid;
+    margin-top: 60px;
+  }
+  #page_footer #twit {
+    display: grid;
+    place-items: center;
+  }
+  #page_footer #about {
+    margin-bottom: 50px;
+  }
+}
+#about_me {
+  display: grid;
+}
+#about_me .shop {
+  display: grid;
+}
+#about_me .shop img {
+  object-fit: cover;
+  border: bold;
+  border-radius: 20px;
+  padding: 0px 6px;
+}
+
+#page_footer {
+  display: grid;
+  margin-bottom: 40px;
+}
+#page_footer #about {
+  display: grid;
+  margin-top: 40px;
+  padding: 0px 6px;
+}
+#page_footer #about #page {
+  margin-bottom: 10px;
+}
+#page_footer #twit {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+#page_footer #twit img {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+#page_footer #go {
+  display: grid;
+  place-self: center;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 1020px) {
+  #page_footer {
+    display: grid;
+  }
+  #page_footer #about {
+    place-items: center;
+    margin-left: 90px;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

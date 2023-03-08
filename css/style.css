@@ -10,376 +10,150 @@ img {
 
 #main_header {
   display: grid;
-  min-height: 10vh;
-}
-#main_header #main_container {
-  display: grid;
-}
-#main_header #main_container img {
-  height: 40px;
-  wdth: 30px;
-}
-
-.menu {
-  display: grid;
-  margin-top: 80px;
-  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 60px;
   place-items: center;
+  margin-top: 60px;
 }
-.menu #mean {
+#main_header img {
   height: 30px;
   width: 30px;
 }
-.menu #search {
-  height: 30px;
-  width: 30px;
-}
-
-#contact_header {
+#main_header .menu {
   display: grid;
-}
-#contact_header .dash {
-  display: grid;
-  place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-}
-#contact_header .dash #more {
-  display: grid;
-  height: 30px;
+  place-items: center;
 }
 
 #main_section {
   display: grid;
-  min-height: 80vh;
-}
-#main_section img {
-  width: 250px;
-  height: 250;
-  margin-bottom: 30px;
-}
-#main_section img:hover {
-  font-size: large;
 }
 #main_section p {
   display: none;
 }
+#main_section img {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  object-fit: cover;
+  border: bold;
+  border-radius: 20px;
+  margin-left: 50px;
+}
 
 @media only screen and (min-width: 720px) {
+  .menu {
+    display: grid;
+    place-items: center;
+    margin-bottom: 50px;
+  }
+  .menu #mau {
+    margin-right: 50px;
+  }
+  .menu #search {
+    margin-right: 100px;
+  }
+  .menu #me {
+    margin-right: 50px;
+  }
   #main_section {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     background-color: lightblue;
-    margin-top: 50px;
   }
   #main_section img {
-    margin: 40px;
-    gap: 20px;
-    height: 190px;
-    object-fit: cover;
-    margin-left: 30px;
-    margin-right: 35px;
-    border: bold;
-    border-radius: 10px;
+    height: 300px;
+    margin-bottom: 40px;
   }
   #main_section img:hover {
-    transform: scale(1.9);
+    transform: scale(1.3);
   }
   #main_section p {
-    display: all;
-  }
-  #main_section .dress {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
-  }
-  #main_section .dress #space {
-    height: 190px;
-    width: 190px;
-    margin-left: 40px;
-    margin-right: 50px;
-  }
-  #main_section .dress #pad {
-    margin-left: 40px;
-    height: 190px;
-    width: 190px;
-    margin-right: 50px;
-  }
-  #main_section .tops {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
-  }
-  #main_section .tops #top {
-    height: 190px;
-    width: 190px;
-  }
-  #main_section .tops #web {
-    height: 190px;
-    width: 190px;
-  }
-  #main_section .piece {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
-  }
-  #main_section .piece #black {
-    height: 190px;
-    width: 190px;
-  }
-  #main_section .piece #two {
-    height: 190px;
-    width: 190px;
-  }
-  #main_section .pant {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
-  }
-  #main_section .pant #mini {
-    height: 190px;
-    width: 190px;
-  }
-  #main_section .pant #knit {
-    height: 190px;
-    width: 190px;
-  }
-  #main_section .bag {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
-  }
-  #main_section .bag img {
-    height: 190px;
-    width: 190px;
-  }
-  #main_section .shoe {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
-  }
-  #main_section .shoe img {
-    height: 190px;
-    width: 190px;
+    display: block;
+    margin-left: 50px;
+    font-size: medium;
   }
   #page_footer {
     display: grid;
-    place-items: center;
-    margin-top: 50px;
   }
-  #page_footer #Media {
-    display: grid;
-  }
-  #page_footer #Media .auto {
-    margin-left: 120px;
-    place-items: center;
-    grid-auto-flow: column;
-    margin-bottom: 40px;
-    margin-top: 50px;
+  #page_footer .auto {
+    margin-left: 390px;
   }
   #page_footer #ref {
-    display: grid;
-    grid-auto-flow: column;
-    margin-top: 60px;
-  }
-  #page_footer .tel {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  #page_footer #info {
-    display: grid;
-    margin-right: 30px;
-    font-size: medium;
-  }
-  #page_footer #info #refund {
-    display: grid;
-    margin-bottom: 20px;
-  }
-  #page_footer #info #nest {
-    color: dimgrey;
-  }
-  #page_footer #info #nest p {
-    margin-top: 10px;
-  }
-  #page_footer #contact {
-    display: grid;
-    margin-bottom: 20px;
-    margin-left: 30px;
-  }
-  #page_footer #contact #com {
-    color: dimgrey;
-  }
-  #page_footer #contact #com p {
-    margin-top: 10px;
-  }
-  #page_footer .blank {
-    display: none;
-  }
-  #page_footer #all {
-    display: none;
-  }
-  #twit {
-    display: grid;
-    margin-left: 250px;
+    margin-left: 100px;
+    gap: 30px;
   }
 }
-@media only screen and (min-width: 1020px) {
-  #main_section {
-    display: grid;
-    margin-top: 100px;
-    margin-top: 80px;
-  }
-  #main_section img {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    margin-left: 80px;
-  }
-  #main_section #pace {
-    display: grid;
-    height: 300px;
-    margin-bottom: 210px;
-  }
-  #main_section #clothes {
-    margin-bottom: 210px;
-  }
-  #main_section #tall {
-    margin-bottom: 210px;
-  }
-  #main_section #well {
-    margin-bottom: 210px;
-  }
-  #main_section #twos {
-    margin-bottom: 210px;
-  }
-  #main_section #plant {
-    margin-bottom: 210px;
-  }
-  #main_section #big {
-    margin-bottom: 210px;
-  }
-  #main_section #shoes {
-    margin-bottom: 210px;
-  }
-  #main_section #pad {
-    height: 190px;
-  }
-  #main_section .bag {
-    display: grid;
-    height: 300px;
-  }
-}
-#page-footer {
-  display: grid;
-  margin-top: 120px;
-}
-
 .blank {
+  display: grid;
+}
+.blank p {
   display: none;
 }
-
-.dress {
-  display: grid;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  place-items: center;
-}
-
-.tops {
-  display: grid;
-  place-items: center;
-  margin-bottom: 50px;
-}
-
-.piece {
-  display: grid;
-  place-items: center;
-  margin-bottom: 50px;
-}
-
-.pant {
-  display: grid;
-  place-items: center;
-  margin-bottom: 50px;
-}
-
-.bag {
-  display: grid;
-  place-items: center;
-  margin-bottom: 50px;
-}
-
-.shoe {
-  display: grid;
-  place-items: center;
-  margin-bottom: 50px;
+.blank #us {
+  display: none;
 }
 
 #page_footer {
   display: grid;
-  min-height: 10vh;
   background-color: beige;
+  margin-top: 40px;
 }
-#page_footer #about {
-  margin-top: 100px;
-  margin-bottom: 60px;
-  text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+
+.tel {
+  display: grid;
 }
-#page_footer #info {
-  margin-bottom: 60px;
-}
-#page_footer #contact {
-  margin-bottom: 60px;
-}
-#page_footer #Media {
-  margin-bottom: 40px;
-}
-#page_footer #Media img {
-  width: 20px;
-  height: 20px;
-}
-#page_footer #Media #all {
+
+#info {
   display: none;
 }
-#page_footer #Media #insta {
-  place-items: center;
+
+#nest {
+  display: none;
 }
-#page_footer #twit {
+
+#contact {
+  display: none;
+}
+
+#all {
+  display: none;
+}
+
+.auto {
   display: grid;
-  place-self: center;
+  margin-top: 50px;
   height: 50px;
   width: 50px;
-  margin-bottom: 100px;
-  margin-top: 100px;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 160px;
-}
-#page_footer #go {
-  display: grid;
-  margin-left: 160px;
-}
-#page_footer #soacial {
-  margin-bottom: 100px;
-  margin-top: 70px;
+  place-items: center;
+  margin-left: 130px;
+  margin-bottom: 50px;
 }
 
-#about_me {
+#ref {
   display: grid;
-  place-items: center;
-}
-#about_me img {
   margin-bottom: 40px;
-  border: bold;
-  border-radius: 30px;
-  margin-top: 10px;
-}
-
-#wicky {
-  display: grid;
-  place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 40px;
-}
-#wicky img {
-  height: 30px;
+  margin-left: 30px;
 }
 
-#page {
-  display: grid;
-  margin-bottom: 30px;
+@media only screen and (min-width: 1020px) {
+  main_section {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: lightblue;
+  }
+  #page_footer {
+    display: grid;
+  }
+  #page_footer .auto {
+    margin-left: 580px;
+  }
+  #page_footer #ref {
+    margin-left: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
