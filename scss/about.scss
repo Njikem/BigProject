@@ -66,9 +66,6 @@ display:grid;
 }
 
 
-
-
-
 #about_me{
     display:grid;
 
@@ -103,11 +100,12 @@ display:grid;
         margin-top: 30px;
         grid-template-columns: 1fr 1fr 1fr;
         place-items: center;
+        width:70%;
         img{
             height:20px;
             width:20px;
           margin-bottom: 20px;
-          margin-left: 30px;
+          
           
         }
     }

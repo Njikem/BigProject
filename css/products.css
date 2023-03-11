@@ -1,3 +1,159 @@
+img {
+  max-width: 100%;
+}
 
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#main_header {
+  display: grid;
+  margin-bottom: 60px;
+}
+#main_header .add {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+  gap: 30px;
+}
+#main_header .add img {
+  height: 20px;
+  width: 20px;
+}
+
+@media only screen and (min-width: 720px) {
+  #page_main {
+    display: grid;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+  }
+  #page_main img:hover {
+    transform: scale(1.3);
+  }
+  #page_main .dress {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-right: 50px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  #page_main .dress P {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #page_main .dress #v.neck {
+    display: grid;
+    place-self: center;
+    margin-left: 90px;
+  }
+  #page_main .top {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+  #page_main .top p {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #page_main .piece1 {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  #page_main .piece1 p {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #page_main .pant1 {
+    display: grid;
+    place-items: centers;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  #page_main .pant1 p {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #page_main .bag1 {
+    display: grid;
+    place-items: centers;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  #page_main .bag1 p {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #page_main .shoe {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  #page_main .shoe p {
+    display: grid;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+#page_main {
+  display: grid;
+  margin-bottom: 50px;
+}
+#page_main img {
+  height: 250px;
+  width: 200px;
+  object-fit: cover;
+  border: bold;
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+#page_main p {
+  display: none;
+}
+
+#page_footer {
+  display: grid;
+  place-items: center;
+  margin-bottom: 30px;
+  background-color: beige;
+}
+#page_footer #info {
+  display: none;
+}
+#page_footer #contact {
+  display: none;
+}
+#page_footer img {
+  height: 20px;
+  width: 20px;
+  place-items: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 1020px) {
+  #page_main {
+    display: grid;
+    background-color: aquamarine;
+  }
+}
 
 /*# sourceMappingURL=products.css.map */

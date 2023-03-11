@@ -17,7 +17,7 @@ img {
   place-content: center;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 30px;
-  gap: 50px;
+  gap: 30px;
 }
 #contact_header .dash img {
   height: 30px;
@@ -78,7 +78,6 @@ img {
   place-items: center;
   background-color: white;
   padding: 20px 0px;
-  margin: 10px;
 }
 #contact_footer #go {
   display: grid;
@@ -97,7 +96,6 @@ img {
   #contact_media {
     display: grid;
     place-items: center;
-    gap: 5px;
   }
 }
 
