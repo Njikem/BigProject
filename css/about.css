@@ -23,6 +23,10 @@ img {
   width: 40px;
 }
 
+#about_me {
+  display: grid;
+}
+
 @media only screen and (min-width: 720px) {
   .shop {
     display: grid;
@@ -49,7 +53,22 @@ img {
   #page_footer #about {
     margin-bottom: 50px;
   }
+  #page_footer #video {
+    display: grid;
+    place-items: center;
+    margin-left: 100px;
+    width: 400px;
+  }
 }
+#video {
+  display: grid;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  width: 300px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
 #about_me {
   display: grid;
 }
@@ -61,6 +80,7 @@ img {
   border: bold;
   border-radius: 20px;
   padding: 0px 6px;
+  place-items: center;
 }
 
 #page_footer {
@@ -71,6 +91,7 @@ img {
   display: grid;
   margin-top: 40px;
   padding: 0px 6px;
+  margin-left: 40px;
 }
 #page_footer #about #page {
   margin-bottom: 10px;
@@ -100,6 +121,9 @@ img {
   #page_footer #about {
     place-items: center;
     margin-left: 90px;
+  }
+  #video {
+    display: grid;
   }
 }
 
